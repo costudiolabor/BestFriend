@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86cf6d42eb70bcb46804c3f51b1fec4b, type: 3}
+  m_Name: MatEyesFemale
+  m_EditorClassIdentifier: 
+  materials:
+  - {fileID: 2100000, guid: 090b8509b907a0b4da862503ffb634f0, type: 2}
+  - {fileID: 2100000, guid: 0e9128b4d837e1841bca71d6de18a4a1, type: 2}
+  - {fileID: 2100000, guid: 918b394149a3985458d01802a99e23cd, type: 2}
+  - {fileID: 2100000, guid: 788adc2ae57bcb54ca78cd0455fdadb9, type: 2}

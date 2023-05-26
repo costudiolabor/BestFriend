@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e21bd8269be4816b0a32011cd98161a, type: 3}
+  m_Name: PantsMale
+  m_EditorClassIdentifier: 
+  clothes:
+  - mesh: {fileID: -8138927777042663837, guid: b3d0c836ceee28b419aac7424402d05c, type: 3}
+    materials:
+    - {fileID: 2100000, guid: e494d8efd49d7d54f92e6f5cbb3eddce, type: 2}
+    - {fileID: 2100000, guid: 43eda3d0cf1fc514698caf078929552c, type: 2}
+  - mesh: {fileID: 3679616557252071857, guid: 99d76570a4f3df149b9ff487f3c1b967, type: 3}
+    materials:
+    - {fileID: 2100000, guid: 269132127a4d475479f1299835fdef02, type: 2}
+    - {fileID: 2100000, guid: 8cf3866901588594db41dc99662fa668, type: 2}
+    - {fileID: 2100000, guid: 8602c21f9ec66b848b558592e10b482f, type: 2}
+  - mesh: {fileID: 8841489399649278026, guid: 8a446cfca645a4841bc15bc4bb436db7, type: 3}
+    materials:
+    - {fileID: 2100000, guid: 3aeac097cdac39541a3e36af4b5bb41c, type: 2}
+    - {fileID: 2100000, guid: e257a0a784260f1468ee9c8436eb8b97, type: 2}
+    - {fileID: 2100000, guid: 45e418defb8855341979ad4ee0af83b7, type: 2}
+  - mesh: {fileID: -6620935718095516362, guid: ef63c8cebd247e94591cbf94a207046c, type: 3}
+    materials:
+    - {fileID: 2100000, guid: 9e262df93c428fe4c89332beb065e528, type: 2}
+    - {fileID: 2100000, guid: 9e0f0eb025c02e04b9bb63cfd50a8e2f, type: 2}
+    - {fileID: 2100000, guid: 0b493d6d4639a2c4f889f22cdaaced55, type: 2}

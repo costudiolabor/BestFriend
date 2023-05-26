@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72e5faeec1b5bd34a9729ac470b124c4, type: 3}
+  m_Name: SettingsModel
+  m_EditorClassIdentifier: 
+  hair: {fileID: 11400000, guid: 66fcfc018f4af424ba3d3be961ede2f4, type: 2}
+  materialsEyes: {fileID: 11400000, guid: 9d6f4546e4868a94394bbba0f488c5a8, type: 2}
+  materialsHair: {fileID: 11400000, guid: cc45fb017bf25ec47b0ae57fba1009bd, type: 2}
+  materialsSkin: {fileID: 11400000, guid: bbeb669ce62dcd742be47d8a8ef53d17, type: 2}
+  tops: {fileID: 11400000, guid: f7cd016af37fc974ead2bc7235cbc41a, type: 2}
+  pants: {fileID: 11400000, guid: 80a09fa773d7b1d4c9ec0d9cb9eade13, type: 2}
+  shoes: {fileID: 11400000, guid: b38542e0f49e327448de33db038af2cc, type: 2}

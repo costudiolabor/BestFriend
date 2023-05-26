@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86cf6d42eb70bcb46804c3f51b1fec4b, type: 3}
+  m_Name: MatSkinFemale
+  m_EditorClassIdentifier: 
+  materials:
+  - {fileID: 2100000, guid: 3c36349ba90dee349b3b655db2694283, type: 2}
+  - {fileID: 2100000, guid: 5fd76f93c57781844b18355748a4c1e3, type: 2}
+  - {fileID: 2100000, guid: f95c653cce88d2942b27da901016df8b, type: 2}
