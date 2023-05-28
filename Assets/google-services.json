@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "96231937893",
+    "firebase_url": "https://iaptest-b5b68-default-rtdb.firebaseio.com",
+    "project_id": "iaptest-b5b68",
+    "storage_bucket": "iaptest-b5b68.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96231937893:android:979d634c0450100172f38c",
+        "android_client_info": {
+          "package_name": "com.costudiolabor.IAPTest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9q4zZ8SMFqLrSDeZdOZS48bEvXq2JK4o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
