@@ -1377,6 +1377,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 473079511}
+  - component: {fileID: 473079512}
   m_Layer: 5
   m_Name: LoginView
   m_TagString: Untagged
@@ -1411,6 +1412,24 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &473079512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 473079510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc13ca15151991b40a3cf0d93074f65d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonBack: {fileID: 2143913452}
+  loginField: {fileID: 289293515}
+  passwordField: {fileID: 1160857226}
+  buttonForgot: {fileID: 814098347}
+  buttonCreate: {fileID: 976124232}
+  buttonContinue: {fileID: 161444162}
 --- !u!1 &509170773
 GameObject:
   m_ObjectHideFlags: 0
@@ -4696,6 +4715,10 @@ MonoBehaviour:
     view: {fileID: 1221038789}
   registration:
     view: {fileID: 350431649}
+  login:
+    view: {fileID: 473079512}
+  recovery:
+    view: {fileID: 1694117875}
 --- !u!1 &1694117873
 GameObject:
   m_ObjectHideFlags: 0
@@ -4705,6 +4728,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1694117874}
+  - component: {fileID: 1694117875}
   m_Layer: 5
   m_Name: RecoveryView
   m_TagString: Untagged
@@ -4736,6 +4760,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1694117875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1694117873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b15a1391d20a8fb489aeee0a0af4a0b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonBack: {fileID: 672191045}
+  loginField: {fileID: 1171336944}
+  buttonContinue: {fileID: 1672278449}
 --- !u!1 &1702511806
 GameObject:
   m_ObjectHideFlags: 0

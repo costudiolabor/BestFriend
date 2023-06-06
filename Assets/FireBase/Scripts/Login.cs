@@ -1,18 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
+using System;
 using UnityEngine;
 
-public class Login : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
+[Serializable]
+public class Login {
+    [SerializeField] private LoginView view;
+    public void Initialize() {
         
     }
 }

@@ -1,18 +1,25 @@
-using System.Collections;
-using System.Collections.Generic;
+using TMPro;
+using System;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class RecoveryView : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+public class RecoveryView : MonoBehaviour {
+    [SerializeField] private Button buttonBack;
+    [SerializeField] private TMP_InputField loginField;
+    [SerializeField] private Button buttonContinue;
+    
+    public event Action BackEvent, ContinueEvent; 
+
+    private void Awake() {
+        buttonBack.onClick.AddListener(OnBack);
+        buttonContinue.onClick.AddListener(OnContinue);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    private void OnBack() {
+        BackEvent?.Invoke();
+    }
+    
+    private void OnContinue() {
+        ContinueEvent?.Invoke();
     }
 }
